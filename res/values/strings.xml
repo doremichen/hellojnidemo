@@ -1,0 +1,14 @@
+<resources>
+
+	<string name="app_name">HelloJNIDemo</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="menu_settings">Settings</string>
+	<string name="title_activity_main">MainActivity</string>
+	<string name="str_btn_testcb1">Test native Call back function</string>
+	<string name="str_btn_test_static_cb1">Test native static Call back function</string>
+	<string name="str_btn_getdata">Get Data changed by native </string>
+	<string name="str_btn_setdata">Set Data Test</string>
+	<string name="str_toast_cb">nativeFunc1 function is called</string>
+	<string name="str_toast_static_cb">nativeStaticFunc1 function is called</string>
+
+</resources>

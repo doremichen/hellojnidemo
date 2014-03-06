@@ -1,0 +1,41 @@
+<ScrollView android:id="@+id/scrollView1" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout android:layout_width="match_parent" 
+            android:layout_height="wrap_content" android:orientation="vertical">
+            
+    <TextView android:id="@+id/ShowTextView" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:padding="@dimen/padding_medium" 
+    	android:text="@string/hello_world" 
+    	tools:context=".MainActivity"/>
+    
+    <Button android:id="@+id/btn_test_cb" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:onClick="onTestCB" 
+    	android:text="@string/str_btn_testcb1"/>
+    	
+    <Button android:id="@+id/btn_test_static_cb" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:onClick="onTestStaticCB" 
+    	android:text="@string/str_btn_test_static_cb1"/>	
+    
+    <Button android:id="@+id/btn_set_data" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:onClick="onSetDataBtn" 
+    	android:text="@string/str_btn_setdata"/>
+    
+    <Button android:id="@+id/btn_get_data" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:onClick="onGetDataBtn" 
+    	android:text="@string/str_btn_getdata"/>
+    	
+    </LinearLayout>
+</ScrollView>
